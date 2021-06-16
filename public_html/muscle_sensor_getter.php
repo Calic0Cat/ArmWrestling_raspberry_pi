@@ -5,6 +5,7 @@
 <?php
 define("ADDRESS","127.0.0.1");
 define("USER","pi");
+// change the password
 define("PASSWORD","pass");
 
 $sconnection = ssh2_connect(ADDRESS,22);
