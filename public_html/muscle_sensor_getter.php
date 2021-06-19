@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-<body>
+<h1>
 <?php
 define("ADDRESS","127.0.0.1");
 define("USER","pi");
@@ -18,5 +18,5 @@ if($stream_out == false){
 }
 echo stream_get_contents($stream_out);
 ?>
-</body>
+</h1>
 </html>
